@@ -1,0 +1,53 @@
+
+body{
+	font-size:18px;
+	width:100%;
+	/* background-color:#ff00ff; */
+}
+/* 自訂css id 時，在樣式裡要以 # 開頭 */
+#banner{
+	border:5px solid red;
+	width:100%;
+	height:100px;
+}
+
+#menu{
+	border:5px solid green;
+	width:100%;  /*寬 % 是因為要做自適應*/
+	height:70px;
+}
+
+#content{
+	border:5px solid blue;  /* border 邊框  solid 實體 */
+	width:100%;
+	min-height:300px;  /* min-height 最低高度*/
+	/* 在CSS裡，若設定height為多少時，那個區塊的高度就是固定，裡面的內容若超過此區塊時，內容會自己越界    
+	若設定 min-height，那個區塊有最低高度設定，若裡面的內容超過此區塊時，區塊會被撐大 */
+}
+
+#footer{
+	border:5px solid #cccccc;
+	width:100%;
+	height:70px;
+}
+
+/* class 的定義是以 . 表示此樣式提供給多個div來使用 */
+.info{
+	width:30%;
+	border:2px solid #ff0000;
+	height:200px;
+	float:left;  /* 設定此區塊為浮塊，會浮起來哦!! 可靠左 left, 可靠右 right */
+	/* clear:both; 不要往前去補空白位 */
+	/*
+	padding 內部距離，padding-top 上面，left左，right右，bottom底
+	padding:上 右 下 左; padding:上下 左右 ;padding:上 左右 下;
+	padding: 10px 20px 30px 40px;
+	padding: 20px 10px;
+	padding:同value;
+
+	*/
+	padding:20px; /* 上下左右都20px */
+
+	/* margin 外部距離，內容上 padding */
+	margin:20px;
+}

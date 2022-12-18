@@ -1,0 +1,90 @@
+body{
+	margin:0 auto;
+	height:100%;
+}
+
+#wrapper{
+	min-height:100%;  /* 全部區塊高度為100% */
+	margin-bottom:-100px;  /* 等一下footer的高度會是100px */
+}
+#banner{
+	height:70px;
+	width:100%;
+}
+#menu{
+	height:50px;
+	width:100%;
+	background-color:#DB7318;
+	color:#ffffff;  /* 區塊內的文字為白色 */
+}
+#content{
+	width:100%;
+	min-height:500px;
+}
+#footer{
+	width:100%;
+	height:100px;
+	background-color:#000000;
+	color:#ffffff;
+}
+
+#logo{
+	float: left; 
+	margin-left: 3%;
+}
+
+.head-right{
+	width: 50px;
+	float: right;
+	padding: 5px;
+}
+
+#conL{
+	float:left;
+	width: 67%;
+	border: 3px solid #ccc;
+	margin: 3px;
+
+}
+#conL img{
+	width: 600px;
+	
+}
+#conLT{
+	border: 3px solid #ccc;
+	background-color: #fff;
+	margin: 0px;
+}
+#conLT ol{
+	list-style: none;
+}
+#conLT ul{
+	list-style: none;
+}
+#conLB{
+	border: 3px solid #ccc;
+	background-color: #fff;
+	margin: 0px;
+}#conLB img{
+	width: 60%;
+}
+#conLB ul{
+	list-style: none;
+}
+#conLB ol{
+	float: right;
+	margin: 60px;
+	list-style: none;
+	
+}
+#conR{
+	float: right;
+	width: 31%;
+	border: 3px solid #ccc;
+	background-color: #fff;
+	margin: 4px;
+}
+#conR img{
+	width: 80%;
+
+}
